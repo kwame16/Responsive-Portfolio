@@ -217,61 +217,110 @@ h3, h2 {
     border: 0 none;
   }
 
-/* header {
-    background:#4aaaa5;
-    border-color: #cccccc;
-    border-style: solid;
-    padding: 10px;
-    margin: 15px 600px 0px 200px;
-    height: 60px;
-    text-align: center;
-}
+/* // Medium devices (tablets, less than 980px) */
+@media (max-width: 980px) {
 
-h1 {
-    float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin: 10px 600px 0px 200px;
-}
+    #formC {
+      width: 60%;
+    }
+  
+    .main-section {
+      position: relative;
+      width: 95%;
+      padding-right: 5%;
+      /* margin: 60px 0px 20px 0px; */
+    }
+  
+    #masthead {
+      width: 93%;
+      padding-right: 5%;
+    }
+  
+  
+    .work {
+     
+      margin: auto;
+      width: 75%;
+      position: relative;
+    }
+    /* #aboutMeH #porfolioH {
+      text-align: left;
+    }
+  
+    #contactH {
+      text-align: center;
+    } */
+  
+  }
+  /* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
 
-.list {
-    color: #777777;
-    background-color: #ffffff;
-    float: right;
-    float: inline;
-}
-
-li {
-    float: left;
-    margin-right: 20px;
-    list-style: none;
-}
-
-ul {
-    float: right;
-    margin-right: 20px;
-
-}
-
-h2 {
-    color: aqua;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: left;
-}
-
-div {
-    align-content: center;
-    margin: 50px 230px 100px 230px;
-    background-image: url(/Basic-Portfolio/assets/images/congruent_outline/congruent_outline.png);
-}
-
-p {
-    border: #178f31;
-    border: 40px 20px 20px 20px;
-    border-width: 10px;
-    padding: 20px;
-    margin: 30px;
-
-} */
-
+    #formC {
+      width: 95%;
+    }
+  
+    .main-section {
+      position: relative;
+      /* margin: 60px 0px 20px 0px; */
+    }
+  
+    #masthead {s
+      width: 93%;
+      padding-right: 3%;
+    }
+  /* BELOW IS SOME CODE THAT WAS PLAYED AROUND WITH TO TEST RESPONSIVENESS
+  UNTIL DESIRED LAYOUT AND VIEW WAS ACHIEVED */
+    .work {
+     
+      margin: auto;
+      width: 75%;
+      position: relative;
+    }
+    #aboutMeH #porfolioH {
+      text-align: left;
+    }
+  
+    #contactH {
+      text-align: center;
+    }
+  }
+  
+  /* // Extra small devices (portrait phones, less than 640px) */
+  @media (max-width: 640px) {
+  
+    #formC {
+      width: 97%;
+    }
+  
+    nav {
+      float: none;
+      clear: both;
+      padding: 20px;
+      text-align: center;
+  
+    }
+  
+    .main-section {
+      position: relative;
+      margin: 60px 0px 20px 0px;
+    }
+  
+    section h1 {
+      text-align: center;
+    }
+  
+    #masthead {
+      width: 93%;
+    }
+  
+    #logo {
+      width: 110%;
+    }
+  
+    .work {
+      margin: auto;
+      width: 75%;
+      position: relative;
+    }
+  
+  }
