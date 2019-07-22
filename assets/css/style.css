@@ -48,6 +48,7 @@ margin-right: 25%;
 
 #page-break{
   background: white;
+  background: url(assets/images/congruent_outline/congruent_outline.png);
 }
 
 #second-box{
@@ -55,28 +56,53 @@ margin-right: 25%;
 }
 
 #crystal-box{
-  width: 400px;
-  margin-left: 35%;
-  margin-right: 35%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: #4aaaa5 8px solid;
   /* background: white; */
 }
  
 #crystals{
-width: 200px;
-height: 200px;
+width: 300px;
+height: 300px;
 object-fit: cover;
+border: 8px red solid;
 }
 
 #crystals-text{
-  width: 150px;
+  width: 300px;
   height: 150px;
+  border: 8px orange solid;
   float: right;
+  margin-right: 25px;
   }
+
+  #psychic-box{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 8px solid blue;
+    /* background: white; */
+  }
+  
+  #psychic{
+    width: 200px;
+    height: 200px;
+    border: 8px green solid;
+    object-fit: cover;
+    }
+    
+    #psychic-text{
+      width: 150px;
+      height: 150px;
+      border: 8px purple solid;
+      float: left;
+      }
 
 #second-box, #third-box{
   height: 350px;
   width: 100%;
-  /* background: beige; */
   border-top: lightgrey dashed 8px;
   border-bottom: lightgrey dashed 8px;
   margin-bottom: 4%;
@@ -84,10 +110,11 @@ object-fit: cover;
 }
 
 #fourth-box {
-  height: 400px;
+  height: 500px;
   width: 100%;
   /* padding: 5% 0 5% 0; */
   /* background: beige; */
+  background: white;
   border-top: lightgrey dashed 8px;
   border-bottom: lightgrey dashed 8px;
   margin-bottom: 4%;
@@ -102,8 +129,8 @@ object-fit: cover;
 }
 
 #jquery{
-  width: 260px;
-  height: 175px;
+  width: 180px;
+  height: 135px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -241,6 +268,7 @@ footer {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  padding-bottom: 10px;
   transform: rotate(90deg);
 }
 
