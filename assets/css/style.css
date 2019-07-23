@@ -245,8 +245,8 @@ footer {
 
 /* main */
 #main-container {
-  padding-top: 70px;
-
+  /* padding-top: 70px; */
+  padding-top: 30px;
 }
 
 /* portfolio page */
