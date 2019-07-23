@@ -24,13 +24,13 @@ body {
   clear: both;
 }
 
-#logos{
-width: 250px;
-height: 250px;
+#logos {
+  width: 250px;
+  height: 250px;
 }
 
 /* #zero-box-pic */
-.box{
+.box {
   /* background: url(../images/nature1.jpg); */
   /* background: url(../images/IMG_2185.jpg); */
   /* background: url(../images/nature2.jpg); */
@@ -40,73 +40,91 @@ height: 250px;
   object-fit: cover;
 }
 
-#zero-box{
-padding-top: 8%;
-margin-left: 30%;
-margin-right: 25%;
+#zero-box {
+  padding-top: 8%;
+  margin-left: 30%;
+  margin-right: 25%;
+
 }
 
-#page-break{
-  background: white;
-  background: url(assets/images/congruent_outline/congruent_outline.png);
-}
-
-#second-box{
-  margin-top: 5%;
-}
-
-#crystal-box{
+#crystal-box {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   border: #4aaaa5 8px solid;
   /* background: white; */
 }
- 
-#crystals{
-width: 300px;
-height: 300px;
-object-fit: cover;
-border: 8px red solid;
+
+#crystals {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 8px red solid;
 }
 
-#crystals-text{
+#crystals-text {
   width: 300px;
   height: 150px;
   border: 8px orange solid;
   float: right;
   margin-right: 25px;
-  }
+}
 
-  #psychic-box{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 8px solid blue;
-    /* background: white; */
-  }
-  
-  #psychic{
-    width: 200px;
-    height: 200px;
-    border: 8px green solid;
-    object-fit: cover;
-    }
-    
-    #psychic-text{
-      width: 150px;
-      height: 150px;
-      border: 8px purple solid;
-      float: left;
-      }
+#psychic-box {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 8px solid blue;
+  /* background: white; */
+}
 
-#second-box, #third-box{
-  height: 350px;
-  width: 100%;
-  border-top: lightgrey dashed 8px;
-  border-bottom: lightgrey dashed 8px;
+#psychic {
+  width: 200px;
+  height: 200px;
+  border: 8px green solid;
+  object-fit: cover;
+}
+
+#psychic-text {
+  width: 150px;
+  height: 150px;
+  border: 8px purple solid;
+  float: left;
+}
+
+
+#page-break {
+  margin-top: 5%;
+  background: white;
+  background: url(assets/images/congruent_outline/congruent_outline.png);
+}
+
+#second-box {
+  margin-top: 5%;
   margin-bottom: 4%;
+  margin: 0 auto;
+  /* background: #545454; */
+  background: white;
+  width: 100%;
+  height: 300px;
+  max-width: 960px;
+  clear: both;
+  border: #333333 dashed 4px;
+  border-radius: 25%;
   text-align: center;
+}
+
+#third-box {
+  margin-bottom: 4%;
+  margin: 5% auto;
+  /* background: #545454; */
+  background: white;
+  width: 100%;
+  height: 300px;
+  max-width: 960px;
+  clear: both;
+  border: #333333 dashed 4px;
+  border-radius: 25%;
 }
 
 #fourth-box {
@@ -121,50 +139,59 @@ border: 8px red solid;
   text-align: center;
 }
 
-#css{
-  width: 175px;
-  height: 175px;
+#css {
+  width: 150px;
+  height: 120px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#jquery {
+  width: 185px;
+  height: 135px;
   margin-left: 2%;
   margin-right: 5%;
 }
 
-#jquery{
-  width: 180px;
-  height: 135px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-#html, #js{
-  width: 150px;
-  height: 150px;
-  margin-left: 5%;
-  margin-right: 5%;
+#html,
+#js {
+  width: 120px;
+  height: 120px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
-h1,
 h2,
 h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-size: 22px;
   color: #bc8c3e;
 }
 
 h1 {
   padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   line-height: 49px;
+  color: #bc8c3e;
   border-bottom: 3px solid#dddddd;
 }
 
-h2,
-h3 {
-  font-size: 22px;
+
+#parah1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* float: left; */
+  /* width: 60px; */
 }
 
+ul{
+ 
+}
 /* header */
 
 /* #masthead {
@@ -259,7 +286,7 @@ footer {
   color: #ffffff;
   text-align: center;
   background: #4aaaa5;
-  
+
 }
 
 .auth-image {
