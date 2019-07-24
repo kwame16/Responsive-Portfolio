@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 34px;
   color: #777777;
   background: url("../images/congruent_outline/congruent_outline.png");
@@ -190,9 +190,10 @@ h1 {
 }
 
 #under-pic{
-  padding-top: 10px;
+  /* padding-top: 10px; */
 
 }
+
 #parah1{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
