@@ -4,13 +4,21 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/congruent_outline/congruent_outline.png");
-  /* background: url(../images/nature1.jpg); */
-  /* background-repeat: no-repeat; */
-  /* border:2px #dddddd; */
-  /* margin: 45px 400px 100px 300px; */
-  /* width: 960px; */
-  /* text-align: center; */
-}
+ }
+
+ .logo{ 
+  /* The image used */
+  background-image: url("../images/8.png");
+  
+  /* Set a specific height */
+  height: 880px; 
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
 
 * {
   box-sizing: border-box;
@@ -37,76 +45,12 @@ body {
   align-content: center;
 }
 
-/* #zero-box-pic */
-/* .box {
-  background: url(../images/nature1.jpg);
-  background: url(../images/IMG_2185.jpg);
-  background: url(../images/nature2.jpg);
-  background-size: cover;
-  background-size: contain;
-  background-repeat: no-repeat;
-  object-fit: cover;
-}
-
-#zero-box {
-  padding-top: 8%;
-  margin-left: 45%;
-  margin-right: 50%;
-
-} */
-
-/* #crystal-box {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border: #4aaaa5 8px solid;
-  background: white;
-}
-
-#crystals {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border: 8px red solid;
-}
-
-#crystals-text {
-  width: 300px;
-  height: 150px;
-  border: 8px orange solid;
-  float: right;
-  margin-right: 25px;
-} */
-
-/* #psychic-box {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border: 8px solid blue;
-  background: white;
-}
-
-#psychic {
-  width: 200px;
-  height: 200px;
-  border: 8px green solid;
-  object-fit: cover;
-}
-
-#psychic-text {
-  width: 150px;
-  height: 150px;
-  border: 8px purple solid;
-  float: left;
-} */
-
-
 #page-break {
   margin-top: 5%;
   background: url(assets/images/congruent_outline/congruent_outline.png);
 }
 
-#second-box {
+#first-box {
   margin-top: 5%;
   margin-bottom: 4%;
   margin: 0 auto;
@@ -115,6 +59,21 @@ body {
   width: 100%;
   height: 300px;
   max-width: 960px;
+  clear: both;
+  border: #333333 dashed 4px;
+  border-radius: 25%;
+  text-align: center;
+}
+
+#second-box {
+  margin-top: 5%;
+  margin-bottom: 4%;
+  margin: 5% auto;
+  /* background: #545454; */
+  background: white;
+  width: 100%;
+  height: 300px;
+  max-width: 1000px;
   clear: both;
   border: #333333 dashed 4px;
   border-radius: 25%;
@@ -146,7 +105,7 @@ body {
   text-align: center;
 }
 
-#css {
+#css,#node, #express, #MySQL, #mongo, #react{
   width: 150px;
   height: 120px;
   margin-left: 2%;
@@ -200,21 +159,6 @@ h1 {
   margin-top: 45px;
 }
 
-
-/* header */
-
-/* #masthead {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: #ffffff;
-  background: lightslategrey;
-  opacity: .35;
-  border-bottom: #cccccc;
-} */
-
 nav {
   float: right;
   margin-top: 25px;
@@ -222,8 +166,8 @@ nav {
 
 nav a {
   display: inline-block;
-  padding-left: 15px;
-  margin-left: 35px;
+  padding-left: 10px;
+  margin-left: 5px;
   line-height: 18px;
   color: #999999;
   text-decoration: none;
@@ -251,13 +195,12 @@ footer {
 
 /* main */
 #main-container {
-  /* padding-top: 40%; */
   padding-top: 30px;
   padding-bottom: 10%;
 }
 
 #main-container-about{
-  padding-top: 40%;
+  padding-top: 5%;
 }
 /* portfolio page */
 
